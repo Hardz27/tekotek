@@ -5,14 +5,15 @@
 
 </head>
 <body>
+	<p>Tekotek-kotek anak ayam turun 100</p>
 	<?php
-		for ($i=100;$i>=1;$i--) {
+		for ($i=99;$i>=1;$i--) {
 			if ($i % 2 == 0) {
 				$color = "red";
 			} else {
-				$color = "blue";
+				$color = "orange";
 			}
-			echo "<span style='color:$color; font-family: Helvetica'>$i</span><br>";
+			echo "<span style='color:$color; font-family: Helvetica'>Mati satu tinggal $i</span><br><br>";
 		}
 	?>
 </body>
